@@ -73,3 +73,7 @@ See [model results](docs/MODEL_RESULTS.md) and [dataset instructions](data/READM
 ## Academic context
 
 Adapted from **M2.875 — Deep Learning (PEC1)**, Universitat Oberta de Catalunya (UOC), MSc in Data Science, academic year 2025–2026. Course exercise prompts are not republished.
+
+## Original execution output
+
+[View the lightweight HTML export of executed notebook output](outputs/original_execution_text.html). This text-focused export excludes embedded images; it complements the editable [source notebook](notebooks/landuse_deep_learning.ipynb).
