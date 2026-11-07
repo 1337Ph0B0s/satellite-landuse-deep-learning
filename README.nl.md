@@ -20,7 +20,7 @@ Vergelijkend deep-learningonderzoek voor de **classificatie van luchtbeelden in 
 
 De hoogste testaccuratesse in het oorspronkelijke notebook werd behaald met **EfficientNetB0 na fine-tuning: 98,10%**. Dit is **0,20 procentpunt** hoger dan de variant met bevroren backbone. Dat verschil vormt op zichzelf geen statistisch onderbouwd bewijs van een algemene verbetering.
 
-![Trainingsaccuratesse EfficientNetB0](assets/efficientnet_accuracy.png)
+*Training-curve images are not yet published in this repository; numerical results are available in the model results document.*
 
 ## Dataset en herkomst
 
@@ -75,7 +75,7 @@ Start Jupyter vanuit de hoofdmap van het project. **Let op:** `tf.data.cache()` 
 6. Fine-tuning van EfficientNetB0 met een lagere learning rate.
 7. Een eenvoudige CNN in PyTorch met `Dataset`, `DataLoader` en een zelfgeschreven trainingslus.
 
-![Accuratesse van de CNN](assets/cnn_accuracy.png)
+*Training-curve images are not yet published in this repository; numerical results are available in the model results document.*
 
 ## Aanvullende documentatie
 
@@ -93,3 +93,7 @@ De resultaten zijn afkomstig uit het oorspronkelijke uitgevoerde notebook, niet 
 ## Academische context
 
 Individueel uitgewerkt voor **M2.875 — Deep Learning (PEC1)**, Master in Data Science aan de **Universitat Oberta de Catalunya (UOC)**, academiejaar 2025–2026. De originele opdrachtteksten worden in de portfolio-versie niet herpubliceerd.
+
+## Uitvoer van de oorspronkelijke uitvoering
+
+[Bekijk de lichtgewicht HTML-export](outputs/original_execution_text.html). Deze versie bevat tekst en numerieke resultaten, maar geen ingebedde afbeeldingen. [Notebook met broncode](notebooks/landuse_deep_learning.ipynb).
