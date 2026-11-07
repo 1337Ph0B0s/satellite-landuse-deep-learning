@@ -20,7 +20,7 @@ Estudio comparativo de redes neuronales aplicado a la **clasificación de escena
 
 El mayor resultado entre los clasificadores evaluados fue **98,10 %** con EfficientNetB0 y fine-tuning. La diferencia respecto al modelo con backbone congelado fue de **0,20 puntos porcentuales**; no representa por sí sola una mejora estadísticamente validada.
 
-![Precisión de EfficientNetB0 durante el entrenamiento](assets/efficientnet_accuracy.png)
+*Training-curve images are not yet published in this repository; numerical results are available in the model results document.*
 
 ## Dataset y procedencia
 
@@ -75,7 +75,7 @@ Ejecuta Jupyter desde la raíz del proyecto. **Advertencia:** `tf.data.cache()` 
 6. Fine-tuning del modelo EfficientNetB0 utilizando una tasa de aprendizaje menor.
 7. Red sencilla en PyTorch con `Dataset`, `DataLoader` y bucle de entrenamiento explícito.
 
-![Curva de precisión CNN](assets/cnn_accuracy.png)
+*Training-curve images are not yet published in this repository; numerical results are available in the model results document.*
 
 ## Documentación adicional
 
@@ -93,3 +93,7 @@ Los resultados corresponden al notebook entregado, no a una nueva ejecución. No
 ## Contexto académico
 
 Proyecto desarrollado individualmente para la asignatura **M2.875 — Deep Learning (PEC1)** del Máster en Ciencia de Datos de la **Universitat Oberta de Catalunya**, curso 2025–2026. Esta versión no reproduce las consignas originales de la asignatura.
+
+## Resultados de la ejecución original
+
+[Consultar el HTML ligero de resultados](outputs/original_execution_text.html). Esta versión conserva texto y resultados numéricos, pero excluye imágenes incrustadas. [Notebook con el código fuente](notebooks/landuse_deep_learning.ipynb).
