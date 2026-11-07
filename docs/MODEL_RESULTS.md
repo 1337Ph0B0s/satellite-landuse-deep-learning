@@ -32,11 +32,11 @@ The custom CNN was trained with three convolutional blocks and a classification 
 
 ## Training curves from the original run
 
-![CNN accuracy](../assets/cnn_accuracy.png)
-![CNN loss](../assets/cnn_loss.png)
-![Autoencoder MSE](../assets/autoencoder_loss.png)
-![EfficientNetB0 accuracy](../assets/efficientnet_accuracy.png)
-![EfficientNetB0 fine-tuning accuracy](../assets/finetuning_accuracy.png)
+*Training-curve images are not yet published in this repository; numerical results are available in the model results document.*
+*Training-curve images are not yet published in this repository; numerical results are available in the model results document.*
+*Training-curve images are not yet published in this repository; numerical results are available in the model results document.*
+*Training-curve images are not yet published in this repository; numerical results are available in the model results document.*
+*Training-curve images are not yet published in this repository; numerical results are available in the model results document.*
 
 ## Limitations
 
