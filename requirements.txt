@@ -1,0 +1,14 @@
+# Framework versions recorded in the original execution
+# TensorFlow and PyTorch compatibility depends on Python/CUDA platform.
+tensorflow==2.19.0
+keras==3.13.2
+numpy
+pandas
+matplotlib
+pillow
+opencv-python
+scikit-learn
+tqdm
+jupyterlab
+torch
+torchvision
