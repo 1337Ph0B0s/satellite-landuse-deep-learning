@@ -1,0 +1,28 @@
+# Datasets (images, labels) — download separately
+/data/external/*
+!/data/external/.gitkeep
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Deep-learning artifacts and weights
+*.h5
+*.keras
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+checkpoints/
+logs/
+runs/
+
+# Python, notebooks and caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
